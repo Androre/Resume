@@ -1,0 +1,157 @@
+
+@font-face {
+  font-family: "LucidaGrande";
+  src: url("../Fonts/LucidaGrande.ttc")
+}
+
+:root {
+  --fa-inverse: #7CB688;
+}
+
+
+.navbar {
+    
+    background: rgb(93,93,93);
+    background: linear-gradient(90deg, rgba(93,93,93,1) 0%, rgba(93,93,93,1) 35%, rgba(182,230,192,1) 100%);
+}
+
+button.navbar-toggler {
+    border: none;
+}
+
+a.navbar-brand,a.navbar-brand:hover,a.navbar-brand:visited {
+    
+    color: #fff;
+    font-family: "LucidaGrande";
+    font-size: 300%;
+    font-weight: 900;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    text-shadow: -9px 5px 2px #6A8A6C;
+}
+
+a.navbar-brand:active {
+    color: #fff;
+}
+
+.offcanvas-body {
+    background-color: #585858;
+}
+
+.offcanvas-header {
+    background-color: #B3E3BE;
+}
+
+h2.offcanvas-title {
+    color: #555;
+    font-family: "LucidaGrande";
+    font-size: 127%;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px #6A8A6C;
+}
+
+.dropdown-divider {
+    border: 2px solid #707070;
+}
+
+a.sub-heading,a.sub-heading:hover,a.sub-heading:visited {
+    color: #fff;
+    font-family: "LucidaGrande";
+    font-size: 140%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+ul.dropdown-menu {
+    background-color: #585858;
+    border: 0;
+}
+
+.tel-accessibility {
+    letter-spacing: -2px;
+}
+
+li a.dropdown-item,a.dropdown-item:hover,a.dropdown-item:focus {
+    background-color: #585858;
+    color: #fff;
+    font-family: "LucidaGrande";
+    font-size: 100%;
+    margin: 4px 0 0 -37px;
+    text-shadow: 10px 4px 20px #000;
+}
+
+
+.education-item,.skill-item {
+    color: #fff; 
+    font-family: "LucidaGrande";
+    font-size: 16px;
+    letter-spacing: -1px;
+    margin-left: -12px;
+    
+}
+
+.education-image,.skill-image {
+    width: 70%;
+}
+
+p.award-text {
+    color: #fff;
+    font-family: "LucidaGrande";
+    letter-spacing: -1px;
+}
+
+
+
+.main-accent {
+    border: 10px solid #585858;
+    margin: 40px 0 0 0;
+}
+
+.sub-accent {
+    background: rgb(196,232,205);
+    background: linear-gradient(180deg, rgba(196,232,205,1) 0%, rgba(196,232,205,0.9878545168067226) 2%, rgba(255,255,255,0) 50%);
+    color: #717271;
+    font-family: "LucidaGrande";
+    letter-spacing: 0.57em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
+.cover-paragraph {
+    font-family: "LucidaGrande";
+    letter-spacing: -1px;
+    filter:blur(2px);
+}
+
+.experience-item {
+    color: #000;
+}
+
+.experience-title {
+    color: #373737;
+    font-family: "LucidaGrande";
+    font-size: 150%;
+    font-weight: 900;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+.experience-image {
+    float: left;
+    width: 4%;
+}
+
+.experience-org {
+    color: #5B5B5B;
+    float: left;
+    font-family: "LucidaGrande";
+    font-size: 100%;
+}
+
+.experience-description {
+    color: #7F7F7F;
+    font-family: "LucidaGrande";
+    font-size: 100%;
+    filter:blur(2px);
+}
